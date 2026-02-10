@@ -1,0 +1,416 @@
+{
+    "albums": [
+        {
+            "name": "BE",
+            "year": 2020,
+            "type": "studio"
+        },
+        {
+            "name": "Map of the Soul: 7",
+            "year": 2020,
+            "type": "studio"
+        },
+        {
+            "name": "Map of the Soul: Persona",
+            "year": 2019,
+            "type": "ep"
+        },
+        {
+            "name": "Love Yourself: Answer",
+            "year": 2018,
+            "type": "repackage"
+        },
+        {
+            "name": "Love Yourself: Tear",
+            "year": 2018,
+            "type": "studio"
+        },
+        {
+            "name": "Love Yourself: Her",
+            "year": 2017,
+            "type": "ep"
+        },
+        {
+            "name": "Wings",
+            "year": 2016,
+            "type": "studio"
+        },
+        {
+            "name": "You Never Walk Alone",
+            "year": 2017,
+            "type": "repackage"
+        }
+    ],
+    "songs": [
+        {
+            "id": 1,
+            "title": "Butter",
+            "artist": "BTS",
+            "album": "Butter (Single)",
+            "year": 2021,
+            "duration": 164,
+            "youtubeId": "WMweEpGlu_U",
+            "genre": "Dance Pop"
+        },
+        {
+            "id": 2,
+            "title": "Permission to Dance",
+            "artist": "BTS",
+            "album": "Butter (Single)",
+            "year": 2021,
+            "duration": 187,
+            "youtubeId": "CuklIb9d3fI",
+            "genre": "Pop"
+        },
+        {
+            "id": 3,
+            "title": "My Universe",
+            "artist": "BTS & Coldplay",
+            "album": "My Universe (Single)",
+            "year": 2021,
+            "duration": 228,
+            "youtubeId": "3YqPKLZF_WU",
+            "genre": "Pop Rock"
+        },
+        {
+            "id": 4,
+            "title": "Film Out",
+            "artist": "BTS",
+            "album": "BTS, THE BEST",
+            "year": 2021,
+            "duration": 252,
+            "youtubeId": "zFT3f9biz68",
+            "genre": "Pop Ballad"
+        },
+        {
+            "id": 5,
+            "title": "Dynamite",
+            "artist": "BTS",
+            "album": "BE",
+            "year": 2020,
+            "duration": 199,
+            "youtubeId": "gdZLi9oWNZg",
+            "genre": "Disco Pop"
+        },
+        {
+            "id": 6,
+            "title": "Life Goes On",
+            "artist": "BTS",
+            "album": "BE",
+            "year": 2020,
+            "duration": 207,
+            "youtubeId": "-5q5mZbe3V8",
+            "genre": "Alternative Hip Hop"
+        },
+        {
+            "id": 7,
+            "title": "Blue & Grey",
+            "artist": "BTS",
+            "album": "BE",
+            "year": 2020,
+            "duration": 254,
+            "youtubeId": "amnspvOH-EE",
+            "genre": "Pop Ballad"
+        },
+        {
+            "id": 8,
+            "title": "ON",
+            "artist": "BTS",
+            "album": "Map of the Soul: 7",
+            "year": 2020,
+            "duration": 252,
+            "youtubeId": "mPVDGOVjRQ0",
+            "genre": "Hip Hop"
+        },
+        {
+            "id": 9,
+            "title": "ON (Kinetic Manifesto)",
+            "artist": "BTS",
+            "album": "Map of the Soul: 7",
+            "year": 2020,
+            "duration": 252,
+            "youtubeId": "gwMa6gpoE9I",
+            "genre": "Hip Hop"
+        },
+        {
+            "id": 10,
+            "title": "Black Swan",
+            "artist": "BTS",
+            "album": "Map of the Soul: 7",
+            "year": 2020,
+            "duration": 197,
+            "youtubeId": "0lapF4DQPKQ",
+            "genre": "Trap"
+        },
+        {
+            "id": 11,
+            "title": "Stay Gold",
+            "artist": "BTS",
+            "album": "Map of the Soul: 7 - The Journey",
+            "year": 2020,
+            "duration": 234,
+            "youtubeId": "9IHwqdz8Xhw",
+            "genre": "Pop"
+        },
+        {
+            "id": 12,
+            "title": "Boy With Luv",
+            "artist": "BTS ft. Halsey",
+            "album": "Map of the Soul: Persona",
+            "year": 2019,
+            "duration": 230,
+            "youtubeId": "XsX3ATc3FbA",
+            "genre": "Pop"
+        },
+        {
+            "id": 13,
+            "title": "IDOL",
+            "artist": "BTS",
+            "album": "Love Yourself: Answer",
+            "year": 2018,
+            "duration": 222,
+            "youtubeId": "pBuZEGYXA6E",
+            "genre": "Hip Hop"
+        },
+        {
+            "id": 14,
+            "title": "Euphoria",
+            "artist": "Jungkook",
+            "album": "Love Yourself: Answer",
+            "year": 2018,
+            "duration": 222,
+            "youtubeId": "kX0vO4vlJuU",
+            "genre": "Future Bass"
+        },
+        {
+            "id": 15,
+            "title": "Epiphany",
+            "artist": "Jin",
+            "album": "Love Yourself: Answer",
+            "year": 2018,
+            "duration": 240,
+            "youtubeId": "fIkZOLsnoqY",
+            "genre": "Pop Rock"
+        },
+        {
+            "id": 16,
+            "title": "Fake Love",
+            "artist": "BTS",
+            "album": "Love Yourself: Tear",
+            "year": 2018,
+            "duration": 242,
+            "youtubeId": "7C2z4GqqS5E",
+            "genre": "Emo Hip Hop"
+        },
+        {
+            "id": 17,
+            "title": "Singularity",
+            "artist": "V",
+            "album": "Love Yourself: Tear",
+            "year": 2018,
+            "duration": 196,
+            "youtubeId": "p8npDG2ulKQ",
+            "genre": "Neo Soul"
+        },
+        {
+            "id": 18,
+            "title": "Airplane pt.2",
+            "artist": "BTS",
+            "album": "Love Yourself: Tear",
+            "year": 2018,
+            "duration": 227,
+            "youtubeId": "Fj3euSYAtnc",
+            "genre": "Latin Pop"
+        },
+        {
+            "id": 19,
+            "title": "DNA",
+            "artist": "BTS",
+            "album": "Love Yourself: Her",
+            "year": 2017,
+            "duration": 224,
+            "youtubeId": "MBdVXkSdhwU",
+            "genre": "EDM Pop"
+        },
+        {
+            "id": 20,
+            "title": "MIC Drop",
+            "artist": "BTS",
+            "album": "Love Yourself: Her",
+            "year": 2017,
+            "duration": 235,
+            "youtubeId": "kTlv5_Bs8aw",
+            "genre": "Hip Hop"
+        },
+        {
+            "id": 21,
+            "title": "Go Go",
+            "artist": "BTS",
+            "album": "Love Yourself: Her",
+            "year": 2017,
+            "duration": 235,
+            "youtubeId": "V1i_x2_TGE0",
+            "genre": "Moombahton"
+        },
+        {
+            "id": 22,
+            "title": "Serendipity",
+            "artist": "Jimin",
+            "album": "Love Yourself: Her",
+            "year": 2017,
+            "duration": 189,
+            "youtubeId": "BEMaH9Sm3lQ",
+            "genre": "R&B"
+        },
+        {
+            "id": 23,
+            "title": "Spring Day",
+            "artist": "BTS",
+            "album": "You Never Walk Alone",
+            "year": 2017,
+            "duration": 274,
+            "youtubeId": "xEeFrLSkMm8",
+            "genre": "Pop Rock"
+        },
+        {
+            "id": 24,
+            "title": "Not Today",
+            "artist": "BTS",
+            "album": "You Never Walk Alone",
+            "year": 2017,
+            "duration": 236,
+            "youtubeId": "9DwzBICPhdM",
+            "genre": "Hip Hop"
+        },
+        {
+            "id": 25,
+            "title": "Blood Sweat & Tears",
+            "artist": "BTS",
+            "album": "Wings",
+            "year": 2016,
+            "duration": 217,
+            "youtubeId": "hmE9f-TEutc",
+            "genre": "Moombahton"
+        },
+        {
+            "id": 26,
+            "title": "Fire",
+            "artist": "BTS",
+            "album": "The Most Beautiful Moment in Life: Young Forever",
+            "year": 2016,
+            "duration": 203,
+            "youtubeId": "4ujQOR2DMFM",
+            "genre": "Hip Hop"
+        },
+        {
+            "id": 27,
+            "title": "Save Me",
+            "artist": "BTS",
+            "album": "The Most Beautiful Moment in Life: Young Forever",
+            "year": 2016,
+            "duration": 227,
+            "youtubeId": "GZjt_sA2eso",
+            "genre": "Tropical House"
+        },
+        {
+            "id": 28,
+            "title": "Epilogue: Young Forever",
+            "artist": "BTS",
+            "album": "The Most Beautiful Moment in Life: Young Forever",
+            "year": 2016,
+            "duration": 308,
+            "youtubeId": "HBj4y9Zibao",
+            "genre": "Pop"
+        },
+        {
+            "id": 29,
+            "title": "Run",
+            "artist": "BTS",
+            "album": "The Most Beautiful Moment in Life Pt.2",
+            "year": 2015,
+            "duration": 223,
+            "youtubeId": "wKysONrSmew",
+            "genre": "EDM"
+        },
+        {
+            "id": 30,
+            "title": "I Need U",
+            "artist": "BTS",
+            "album": "The Most Beautiful Moment in Life Pt.1",
+            "year": 2015,
+            "duration": 197,
+            "youtubeId": "NMdTd9e-LEI",
+            "genre": "Future Bass"
+        },
+        {
+            "id": 31,
+            "title": "Dope",
+            "artist": "BTS",
+            "album": "The Most Beautiful Moment in Life Pt.1",
+            "year": 2015,
+            "duration": 220,
+            "youtubeId": "BVwAVbKYYeM",
+            "genre": "Hip Hop"
+        },
+        {
+            "id": 32,
+            "title": "Danger",
+            "artist": "BTS",
+            "album": "Dark & Wild",
+            "year": 2014,
+            "duration": 229,
+            "youtubeId": "bagj78IQ3l0",
+            "genre": "Hip Hop"
+        },
+        {
+            "id": 33,
+            "title": "War of Hormone",
+            "artist": "BTS",
+            "album": "Dark & Wild",
+            "year": 2014,
+            "duration": 203,
+            "youtubeId": "XQmpVHUi-0A",
+            "genre": "Pop Punk"
+        },
+        {
+            "id": 34,
+            "title": "Just One Day",
+            "artist": "BTS",
+            "album": "Skool Luv Affair",
+            "year": 2014,
+            "duration": 239,
+            "youtubeId": "DTcKkcyS410",
+            "genre": "R&B"
+        },
+        {
+            "id": 35,
+            "title": "Boy In Luv",
+            "artist": "BTS",
+            "album": "Skool Luv Affair",
+            "year": 2014,
+            "duration": 221,
+            "youtubeId": "m8MfJg68oCs",
+            "genre": "Hip Hop"
+        },
+        {
+            "id": 36,
+            "title": "We Are Bulletproof Pt.2",
+            "artist": "BTS",
+            "album": "2 Cool 4 Skool",
+            "year": 2013,
+            "duration": 208,
+            "youtubeId": "gqhWHy0rrtM",
+            "genre": "Hip Hop"
+        },
+        {
+            "id": 37,
+            "title": "N.O",
+            "artist": "BTS",
+            "album": "O!RUL8,2?",
+            "year": 2013,
+            "duration": 219,
+            "youtubeId": "mmgxPLLLyVo",
+            "genre": "Hip Hop"
+        }
+    ]
+}

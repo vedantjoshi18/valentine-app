@@ -1,0 +1,176 @@
+/* Import premium Google Fonts - must be first */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-bts-purple-900: #2e1a47;
+  --color-bts-purple-800: #4a2c6f;
+  --color-bts-purple-500: #8c52ff;
+  --color-bts-purple-400: #a78bfa;
+  --color-bts-lavender: #d8b4fe;
+  --color-bts-midnight: #0f172a;
+  --color-bts-pink: #ec4899;
+  --color-bts-rose: #f43f5e;
+
+  --font-outfit: 'Outfit', system-ui, sans-serif;
+  --font-inter: 'Inter', system-ui, sans-serif;
+
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-pulse-slow: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --animate-shimmer: shimmer 2s linear infinite;
+  --animate-glow: glow 2s ease-in-out infinite alternate;
+
+  @keyframes float {
+
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  @keyframes shimmer {
+    0% {
+      background-position: -200% 0;
+    }
+
+    100% {
+      background-position: 200% 0;
+    }
+  }
+
+  @keyframes glow {
+    0% {
+      box-shadow: 0 0 20px rgba(140, 82, 255, 0.3);
+    }
+
+    100% {
+      box-shadow: 0 0 40px rgba(140, 82, 255, 0.6), 0 0 80px rgba(140, 82, 255, 0.3);
+    }
+  }
+}
+
+:root {
+  --background: #0a0118;
+  --foreground: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter);
+  overflow-x: hidden;
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-outfit);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+/* Fix text clipping for large headings */
+.text-6xl,
+.text-7xl,
+.text-8xl {
+  padding-bottom: 0.1em;
+  line-height: 1.1;
+}
+
+@utility glass-panel {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow:
+    0 4px 30px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+@utility glass-button {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 10px 40px rgba(140, 82, 255, 0.3);
+  }
+}
+
+@utility shimmer-text {
+  background: linear-gradient(90deg,
+      rgba(255, 255, 255, 0.8) 0%,
+      rgba(216, 180, 254, 1) 25%,
+      rgba(140, 82, 255, 1) 50%,
+      rgba(216, 180, 254, 1) 75%,
+      rgba(255, 255, 255, 0.8) 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 3s linear infinite;
+}
+
+@utility gradient-border {
+  position: relative;
+  background: transparent;
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(135deg, #8c52ff, #ec4899, #8c52ff);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+  }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #8c52ff, #4a2c6f);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #a78bfa, #8c52ff);
+}
+
+/* Selection styling */
+::selection {
+  background: rgba(140, 82, 255, 0.4);
+  color: white;
+}
